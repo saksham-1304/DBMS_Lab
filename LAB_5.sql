@@ -1,3 +1,5 @@
+--LAB 5
+
 create database manit;
 use manit;
 create table Orders(OrderID INT PRIMARY KEY ,CustomerID INT,OrderDate Date);
