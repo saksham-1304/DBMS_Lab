@@ -1,3 +1,5 @@
+--LAB 1
+
 CREATE database MANIT;
 Use MANIT;
 CREATE TABLE authors (id INT, name VARCHAR(20), email VARCHAR(20));
