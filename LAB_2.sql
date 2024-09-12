@@ -1,3 +1,5 @@
+--LAB 2
+
 create database universityDB;
 use universityDB;
 create table student(stu_id varchar(255),stu_name varchar(255),stu_dept varchar(255),phoneNumber varchar(255),DOB varchar (255),address varchar (255),fathers_name varchar (255),mothers_name varchar (255));
