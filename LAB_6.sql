@@ -1,3 +1,5 @@
+--LAB 6
+
 USE manit;
 create table customer(customerid int auto_increment primary key ,customername varchar(255),contactname varchar(255),country varchar(255));
 insert into customer(customername,contactname,country)values
