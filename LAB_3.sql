@@ -1,3 +1,5 @@
+--LAB 3
+
 create database library;
 use library;
 create table LibraryBooks(BookID INT AUTO_INCREMENT PRIMARY KEY,Title VARCHAR(100) NOT NULL,Author VARCHAR(50) NOT NULL ,Genre CHAR(20) not null,PageCount SMALLINT NOT NULL,Price DECIMAL(6,2)NOT NULL,PublishDate DATE NOT NULL,AddedToLibrary TIME NOT NULL,isAvailable BOOLEAN NOT NULL,ISBN INT UNIQUE NOT NULL);
