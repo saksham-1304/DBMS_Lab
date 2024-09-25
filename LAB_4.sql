@@ -1,5 +1,3 @@
---LAB 4
-
 create database Hospital;
 use Hospital;
 create Table Patients(
@@ -61,6 +59,8 @@ VALUES
 
 
 select * from doctors;
+
+
 
 INSERT INTO Appointments (PatientID, DoctorID, AppointmentDate, AppointmentTime)
 VALUES
