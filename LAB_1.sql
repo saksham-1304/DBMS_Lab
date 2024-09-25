@@ -1,12 +1,10 @@
---LAB 1
-
 CREATE database MANIT;
 Use MANIT;
 CREATE TABLE authors (id INT, name VARCHAR(20), email VARCHAR(20));
 INSERT INTO authors (id,name,email) VALUES(1,"Vivek","xuz@abc.com");
 
 
-
+Insert into authors values(2,'Priya','p@gmail.com');
 INSERT INTO authors (id,name,email) VALUES(3,"Tom","tom@yahoo.com");
 
 SELECT * FROM authors;
