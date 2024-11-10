@@ -1,4 +1,5 @@
-use manit;
+create database manit123;
+use manit123;
 CREATE TABLE Customers (
 CustomerID INT AUTO_INCREMENT PRIMARY KEY,
 FirstName VARCHAR(50) NOT NULL,
