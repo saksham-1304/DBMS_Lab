@@ -7,12 +7,14 @@ Speciality varchar (50),
 PhoneNumber varchar (50)
 );
 
+
 insert into Doctors (FirstName,LastName,Speciality,PhoneNumber) values ('Arjun','Sharma','Cardiology','9876543210');
 insert into Doctors (FirstName,LastName,Speciality,PhoneNumber) values ('Priya','Iyer','Neurology','9876543267');
 insert into Doctors (FirstName,LastName,Speciality,PhoneNumber) values ('Rohit','Verma','Rheumatology','9876543281');
 insert into Doctors (FirstName,LastName,Speciality,PhoneNumber) values ('Neha','Gupta','Pediatrics','9876543234');
 insert into Doctors (FirstName,LastName,Speciality,PhoneNumber) values ('Amit','Joshi','Dermatology','9876543211');
 insert into Doctors (FirstName,LastName,Speciality,PhoneNumber) values ('Anjali','Deshmukh','General Surgery','9879543210');
+Select * from Doctors;
 
 create table Patients (
 PatientID int auto_increment primary key,
@@ -34,7 +36,7 @@ insert into Patients (FirstName,LastName,Gender,DOB,ContactNumber,Address) value
 insert into Patients (FirstName,LastName,Gender,DOB,ContactNumber,Address) values ('Deepak','Reddy','M','1985-04-15','9376001234','75 Outer Ring Road, Bangalore');
 insert into Patients (FirstName,LastName,Gender,DOB,ContactNumber,Address) values ('Meera','Das','F','1985-04-14','9876001134','42 Salt Lake Kolkata');
 insert into Patients (FirstName,LastName,Gender,DOB,ContactNumber,Address) values ('Raj','Chawla','M','1985-04-11','9876001239','19 Vikas Puri, New Delhi');
-
+Select * from Patients;
 CREATE table Appointments ( AppointmentID INT auto_increment primary key,PatientID INT,DoctorID int,AppointmentDate date, AppointmentTime time);
 insert into Appointments (PatientID,DoctorID,AppointmentDate,AppointmentTime)values(1, 1, '2024-10-15', '09:00:00'),
 (2, 2, '2024-10-16' ,'10:30:00'),
